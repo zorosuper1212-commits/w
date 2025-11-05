@@ -56,7 +56,7 @@
     <header>
       <div class="toprow">
         <div style="display:flex;gap:10px;align-items:center">
-          <button id="flashBtn" class="btn">⚡ 自動</button>
+          <button id="flashBtn" class="btn"> 自動</button>
           <button id="hdrBtn" class="btn">HDR</button>
           <button id="gridBtn" class="btn">グリッド</button>
         </div>
@@ -299,7 +299,7 @@
     });
 
     // Flash and HDR toggles (UI only; flash cannot be controlled from web reliably)
-    flashBtn.addEventListener('click', ()=>{ flashBtn.classList.toggle('active'); flashBtn.textContent = flashBtn.classList.contains('active')? '⚡ 強制' : '⚡ 自動'; });
+    flashBtn.addEventListener('click', ()=>{ flashBtn.classList.toggle('active'); flashBtn.textContent = flashBtn.classList.contains('active')? ' 強制' : ' 自動'; });
     hdrBtn.addEventListener('click', ()=>{ hdrBtn.classList.toggle('active'); hdrBtn.textContent = hdrBtn.classList.contains('active')? 'HDR:ON' : 'HDR'; });
 
     // Shutter sound
